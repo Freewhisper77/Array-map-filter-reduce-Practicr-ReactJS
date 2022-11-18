@@ -10,5 +10,8 @@ const filteredNumbers = numbers.filter((x) => x >=5 );
 const sum = numbers.reduce((x,y) => x + y, 0);
 
 //Find - find the first item that matches from an array.
+// diff in Filter & Find: When Find get the return, it will not go through the remaining array.
+const num = numbers.find((x) => x > 5); //56
 
 //FindIndex - find the index of the first item that matches.
+const i = numbers.findIndex((x) => x > 5); //1
